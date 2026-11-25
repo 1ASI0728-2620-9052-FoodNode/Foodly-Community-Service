@@ -1,0 +1,38 @@
+/target/
+/.cache/
+.env
+.env.*
+!/.env.example
+*.log
+*.log.*
+# Configuración local, datos temporales y respaldos: nunca publicar.
+/.local/
+/.tmp/
+/tmp/
+/temp/
+*.bak
+*.backup
+*.dump
+*.hprof
+*.jfr
+hs_err_pid*
+replay_pid*
+*~
+# Material privado y almacenes de credenciales.
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+# Productos compilados fuera de target, si una herramienta los genera.
+*.class
+*.jar
+/.idea/
+/.vscode/
+*.iml
+/.classpath
+/.project
+/.settings/
+.DS_Store
+Thumbs.db
